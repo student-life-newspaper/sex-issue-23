@@ -16,8 +16,9 @@ h1 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.75em !important;
+    font-size: 1.25em !important;
     margin-bottom: .75em !important;
+    margin-top: .75em !important;
 }
 
 .circle-wrap {
@@ -163,6 +164,8 @@ footer a:hover {
     background-color: rgb(223, 65, 91) !important;
     color: rgb(0, 0, 0) !important;
     margin-bottom: 30px ;
-    margin-right: 10px;
+    /* margin-right: auto !important;
+    margin-left: auto !important; */
     font-size: .75em !important;
 }
+
