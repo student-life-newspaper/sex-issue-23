@@ -94,8 +94,8 @@ h2 {
 }
 
 
-header {
-    height: 60px;
+header nav {
+    height: 40px !important;
     width: 100%;
 }
 
