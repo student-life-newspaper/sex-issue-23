@@ -1,0 +1,113 @@
+/* first year */
+.circle-wrap.h .circle .mask.full,
+.circle-wrap.h .circle .fill  {
+    animation: fill ease-in-out 2s;
+    transform: rotate(103.32deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(103.32deg);
+    }
+}
+
+/* sophmore */
+.circle-wrap.sophmore .circle .mask.full,
+.circle-wrap.sophmore .circle .fill  {
+    animation: fillSo ease-in-out 2s;
+    transform: rotate(133.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillSo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(133.18deg);
+    }
+}
+
+/* junior */
+.circle-wrap.junior .circle .mask.full,
+.circle-wrap.junior .circle .fill  {
+    animation: fillJ ease-in-out 2s;
+    transform: rotate(142.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillJ {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.18deg);
+    }
+}
+
+/* senior */
+.circle-wrap.senior .circle .mask.full,
+.circle-wrap.senior .circle .fill  {
+    animation: fillS ease-in-out 2s;
+    transform: rotate(158.49deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillS {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(158.49deg);
+    }
+}
+
+/* grad */
+.circle-wrap.grad .circle .mask.full,
+.circle-wrap.grad .circle .fill  {
+    animation: fillG ease-in-out 2s;
+    transform: rotate(142.93deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillG {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.93deg);
+    }
+}
+
+/* med */
+.circle-wrap.med .circle .mask.full,
+.circle-wrap.med .circle .fill  {
+    animation: fillM ease-in-out 2s;
+    transform: rotate(161.60deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillM {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(161.60deg);
+    }
+}

@@ -1,0 +1,97 @@
+div .bar {
+height: 100%;
+width: 0;
+background-color:rgb(223, 65, 91);
+/* transition: all 1s; */
+animation: fill ease-in-out  1.5s;
+
+}
+
+div .dbar {
+    height: 90%;
+    width: 100%;
+    
+    background-color:rgba(255, 217, 223, 0.692);
+    /* transition: all 1s; */
+    
+    
+}
+
+div .bar.artsci{
+    width: 74.30%;
+   
+
+    animation: fillA ease-in-out  1.5s;
+}
+
+@keyframes fillA {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 74.30%;
+    }
+}
+
+div .bar.olin{
+    width: 78.51%;
+    animation: fillO ease-in-out  1.5s;
+}
+
+@keyframes fillO {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 78.51%;
+    }
+}
+
+div .bar.samfox{
+    width: 71.25%;
+    animation: fillS ease-in-out  1.5s;
+}
+
+@keyframes fillS {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 71.25%;
+    }
+}
+
+div .bar.mckelvey{
+    width: 70.15%;
+    animation: fillM ease-in-out  1.5s;
+}
+
+@keyframes fillM {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70.15%;
+    }
+}
+
+div .bar.medschool{
+    width: 87.5%;
+    animation: fillMS ease-in-out 1.5s;
+}
+
+@keyframes fillMS {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 87.5%;
+    }
+}
+
+
