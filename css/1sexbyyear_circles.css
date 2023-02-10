@@ -58,13 +58,13 @@
 /* senior */
 .circle-wrap.senior .circle .mask.full,
 .circle-wrap.senior .circle .fill  {
-    animation: fillS ease-in-out 2s;
+    animation: fillSCC ease-in-out 2s;
     transform: rotate(158.49deg);
     /* background-color: rgb(0, 255, 255); */
 
 }
 
-@keyframes fillS {
+@keyframes fillSCC {
     0% {
         transform: rotate(0deg);
     }
@@ -77,13 +77,13 @@
 /* grad */
 .circle-wrap.grad .circle .mask.full,
 .circle-wrap.grad .circle .fill  {
-    animation: fillG ease-in-out 2s;
+    animation: fillGCC ease-in-out 2s;
     transform: rotate(142.93deg);
     /* background-color: rgb(0, 255, 255); */
 
 }
 
-@keyframes fillG {
+@keyframes fillGCC {
     0% {
         transform: rotate(0deg);
     }
@@ -96,13 +96,13 @@
 /* med */
 .circle-wrap.med .circle .mask.full,
 .circle-wrap.med .circle .fill  {
-    animation: fillM ease-in-out 2s;
+    animation: fillMCC ease-in-out 2s;
     transform: rotate(161.60deg);
     /* background-color: rgb(0, 255, 255); */
 
 }
 
-@keyframes fillM {
+@keyframes fillMCC {
     0% {
         transform: rotate(0deg);
     }
