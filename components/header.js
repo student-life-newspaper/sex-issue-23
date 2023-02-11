@@ -8,7 +8,7 @@ class Header extends HTMLElement {
         <header>
           <nav>
             <ul>
-              <li><a href="#">StudLife | Sex Issue 2023</a></li>
+              <li><a href="https://www.studlife.com/">StudLife | Sex Issue 2023</a></li>
               <li><a href="#"></a></li>
               
             </ul>
