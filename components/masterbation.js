@@ -1,33 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+class Masterbation extends HTMLElement {
+    constructor() {
+        super();
+    }
 
-<head>
-    <title>Sex Issue 2023 | Student Life</title>
-    <link rel="shortcut icon" href="https://www.studlife.com/favicon.ico?v=2" />
-    <meta name="description" content="Site content published alongside StudLife's 2023 Sex Issue" />
-    <meta name="COPYRIGHT" content="&copy; 2023 Student Life" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Student Life Staff | Student Life">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="og:type" content="article">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/1sexbyyear_circles.css">
-    <link rel="stylesheet" href="css//3sextoys_pie.css">
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
-
-
-</head>
-
-<body>
-    <header-component></header-component>
-
-    <div class="container">
+    connectedCallback() {
+        this.innerHTML = `
+        <Masterbation>
+        <div class="container">
         <h1>
             Masterbation frequency?
         </h1>
@@ -65,7 +44,7 @@
                 <div class="color_block never"></div>
             </div>
             <div class="col">
-                <h2>Never 0.17%</h2>
+                <h2>Never: 0.17%</h2>
             </div>
 
         </div>
@@ -74,7 +53,7 @@
                 <div class="color_block month"></div>
             </div>
             <div class="col">
-                <h2>Less than once a month 6.88%</h2>
+                <h2>Less than once a month: 6.88%</h2>
             </div>
 
         </div>
@@ -93,7 +72,7 @@
             </div>
             <div class="col">
                 <h2>
-                    Weekly 28.29%</h2>
+                    Weekly: 28.29%</h2>
             </div>
 
         </div>
@@ -103,7 +82,7 @@
             </div>
             <div class="col">
                 <h2>
-                    Several times a week 34.03%</h2>
+                    Several times a week: 34.03%</h2>
             </div>
 
         </div>
@@ -113,7 +92,7 @@
             </div>
             <div class="col">
                 <h2>
-                    Daily 11.14%</h2>
+                    Daily: 11.14%</h2>
             </div>
 
         </div>
@@ -124,27 +103,18 @@
             <div class="col">
                 <h2>
 
-                    Multiple times daily 2.52%</h2>
+                    Multiple times daily: 2.52%</h2>
+                    
+                    
             </div>
 
         </div>
 
-
-
-
-
     </div>
+  
+        </Masterbation>
+      `;
+    }
+}
 
-    <div class="d-grid gap-2 d-md-flex justify-content-end my-1">
-        <button class="btn mybtn me-md-2" type="button">></button>
-
-    </div>
-
-
-    <footer-component></footer-component>
-</body>
-
-<script src="js/script.js" type="text/javascript" defer></script>
-
-
-</html>
+customElements.define('masterbation-component', Masterbation);

@@ -8,7 +8,7 @@ class DatingApp extends HTMLElement {
         <DatingApp>
         <div class="container">
         <h1>
-            Which year has had the most sex?
+            WashU's prefered dating app?
         </h1>
         <div class="row gy-5">
             <div class="col-6">
@@ -61,7 +61,7 @@ class DatingApp extends HTMLElement {
         </div>
         <div class="row gy-5">
             <div class="col-6">
-                <div class="circle-wrap None">
+                <div class="circle-wrap noneApps">
                     <div class="circle">
 
                         <div class="mask full">
@@ -75,7 +75,7 @@ class DatingApp extends HTMLElement {
                         <div class="inside-circle">
                             <h2>Junior</h2>
                             <p class="percent">32.07%</p>
-                            <p class="responses">276 responses</p>
+                            
                              
 
                         </div>
@@ -86,7 +86,7 @@ class DatingApp extends HTMLElement {
 
             </div>
             <div class="col-6">
-                <div class="circle-wrap Bumble">
+                <div class="circle-wrap bumble">
                     <div class="circle">
 
                         <div class="mask full">

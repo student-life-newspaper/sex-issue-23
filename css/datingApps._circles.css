@@ -1,0 +1,113 @@
+/* first year */
+.circle-wrap.tinder .circle .mask.full,
+.circle-wrap.tinder .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(103.32deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillTinder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(103.32deg);
+    }
+}
+
+/* hinge */
+.circle-wrap.hinge .circle .mask.full,
+.circle-wrap.hinge .circle .fill  {
+    animation: fillhinge ease-in-out 2s;
+    transform: rotate(133.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillhinge {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(133.18deg);
+    }
+}
+
+/* noneApps*/
+.circle-wrap.noneApps .circle .mask.full,
+.circle-wrap.noneApps .circle .fill  {
+    animation: fillnoneApps ease-in-out 2s;
+    transform: rotate(142.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillnoneApps {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.18deg);
+    }
+}
+
+/* senior */
+.circle-wrap.bumble .circle .mask.full,
+.circle-wrap.bumble .circle .fill  {
+    animation: fillBumble ease-in-out 2s;
+    transform: rotate(158.49deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillBumble {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(158.49deg);
+    }
+}
+
+/* snapchat */
+.circle-wrap.snapchat .circle .mask.full,
+.circle-wrap.snapchat .circle .fill  {
+    animation: fillsnapchat ease-in-out 2s;
+    transform: rotate(142.93deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillsnapchat {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.93deg);
+    }
+}
+
+/* DataMatc */
+.circle-wrap.DataMatc .circle .mask.full,
+.circle-wrap.DataMatc .circle .fill  {
+    animation: fillDataMatc ease-in-out 2s;
+    transform: rotate(161.60deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillDataMatc {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(161.60deg);
+    }
+}

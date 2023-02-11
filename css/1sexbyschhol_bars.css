@@ -94,4 +94,86 @@ div .bar.medschool{
     }
 }
 
+toys-component .bar{
+    height: 80px;
+}
 
+toys-component .dbar{
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+toys-component div .bar.no_toys{
+    width: 49.26%;
+    animation: toyfill1 ease-in-out 1.5s;
+}
+
+@keyframes toyfill1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 49.26%;
+    }
+}
+
+toys-component div .bar.vibrator{
+    width: 42.26%;
+    animation: toyfill2 ease-in-out 1.5s;
+}
+
+@keyframes toyfill2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 42.26%;
+    }
+}
+
+toys-component div .bar.handcuffs{
+    width: 14.32%;
+    animation: toyfill3 ease-in-out 1.5s;
+}
+
+@keyframes toyfill3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 14.32%;
+    }
+}
+
+toys-component div .bar.dildo{
+    width: 16.86%;
+    animation: toyfill4 ease-in-out 1.5s;
+}
+
+@keyframes toyfill4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 16.86%;
+    }
+}
+
+toys-component div .bar.butt_plug{
+    width: 8.62%;
+    animation: toyfill5 ease-in-out 1.5s;
+}
+
+@keyframes toyfill5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 8.62%;
+    }
+}

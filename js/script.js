@@ -11,8 +11,14 @@ let currentPage = 1;
 let btn = document.getElementById('next_btn');
 let prevbtn = document.getElementById('prev_btn');
 
+
+
 let body = document.getElementById('bod');
 
+let ww = document.createElement("welcome-component");
+        ww.id="newID"
+        body.append(ww)
+        
 btn.onclick = function(){
     currentPage += 1;
     console.log(currentPage)
@@ -39,13 +45,15 @@ function changePageForward(){
     
     if(currentPage == 2){
        
-
+        ww=document.getElementById("newID");
+    
+        ww.remove();
         prevbtn.setAttribute("class", "btn mybtn me-md-2")
         let p = document.createElement("schoolsex-component");
         p.id="newID"
         
         bod.append(p)
-       fadeIn()
+    //    fadeIn()
     }
     else if(currentPage == 3){
         // bod.style.opacity = 0;
@@ -60,6 +68,44 @@ function changePageForward(){
         // fadeIn()
 
     }
+
+    else if(currentPage == 4){
+        // bod.style.opacity = 0;
+       q=document.getElementById("newID");
+    
+        q.remove();
+
+        let m = document.createElement("dating-component");
+        m.id="newID"
+        
+        bod.append(m)
+        // fadeIn()
+
+    }
+
+    else if(currentPage == 5){
+       
+       m=document.getElementById("newID");
+        m.remove();
+
+        let i = document.createElement("toys-component");
+        i.id="newID"
+        bod.append(i)
+        
+
+    }
+
+    else if(currentPage == 6){
+       
+        i=document.getElementById("newID");
+         i.remove();
+ 
+         let j = document.createElement("masterbation-component");
+         j.id="newID"
+         bod.append(j)
+         
+ 
+     }
 }
 
 function changePageBackward(){
@@ -67,6 +113,10 @@ function changePageBackward(){
     if(currentPage == 1){
         let p =document.getElementById("newID");
         p.remove();
+
+        let ww = document.createElement("welcome-component");
+        ww.id="newID"
+        bod.append(ww)
 
         prevbtn.setAttribute("class", "btn mybtn me-md-2 disabled")
 
@@ -82,19 +132,13 @@ function changePageBackward(){
         bod.append(p)
        fadeIn()
     }
-    else if(currentPage == 3){
-        // bod.style.opacity = 0;
-       p=document.getElementById("newID");
-    
-        p.remove();
-
-        let q = document.createElement("yearsex-component");
-        q.id="newID"
-        
-        bod.append(q)
-        // fadeIn()
+    else {
+        changePageForward();
 
     }
+
+   
+
 }
 
 
