@@ -185,3 +185,94 @@
         transform: rotate(122.27deg);
     }
 }
+
+.circle-wrap.tinder .circle .mask.full,
+.circle-wrap.tinder .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(97.56deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.tinder .circle .fill  {
+    background-color: #ff6060;
+
+
+
+}
+
+.circle-wrap.hinge .circle .mask.full,
+.circle-wrap.hinge .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(58.30deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.hinge .circle .fill  {
+    background-color: rgb(134, 0, 69);
+
+}
+
+.circle-wrap.grindr .circle .mask.full,
+.circle-wrap.grindr .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(9.73deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.grindr .circle .fill  {
+    background-color: rgb(62, 1, 42);
+
+}
+
+.circle-wrap.bumble .circle .mask.full,
+.circle-wrap.bumble .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(54.37deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.bumble .circle .fill  {
+    background-color: rgb(212, 102, 148);
+
+    
+}
+
+.circle-wrap.snapchat .circle .mask.full,
+.circle-wrap.snapchat .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(30.38deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.snapchat .circle .fill  {
+    background-color: #a04;
+
+}
+
+.circle-wrap.DataMatc .circle .mask.full,
+.circle-wrap.DataMatc .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(23.4deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.DataMatc .circle .fill  {
+    background-color: #ffaeae;
+
+}
+
+@keyframes fillTinder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+       
+    }
+}

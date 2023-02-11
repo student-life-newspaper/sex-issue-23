@@ -61,7 +61,7 @@ class DatingApp extends HTMLElement {
         </div>
         <div class="row gy-5">
             <div class="col-6">
-                <div class="circle-wrap noneApps">
+                <div class="circle-wrap grindr">
                     <div class="circle">
 
                         <div class="mask full">
@@ -73,8 +73,8 @@ class DatingApp extends HTMLElement {
                         </div>
 
                         <div class="inside-circle">
-                            <h2>Junior</h2>
-                            <p class="percent">32.07%</p>
+                            <h2>Grindr</h2>
+                            <p class="percent">5.41%</p>
                             
                              
 
