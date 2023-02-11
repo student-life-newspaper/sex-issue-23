@@ -49,6 +49,19 @@ function changePageForward(){
     
         ww.remove();
         prevbtn.setAttribute("class", "btn mybtn me-md-2")
+        let hh = document.createElement("reality-component");
+        hh.id="newID"
+        
+        bod.append(hh)
+    //    fadeIn()
+    }
+    
+    else if(currentPage == 4){
+       
+        hh=document.getElementById("newID");
+    
+        hh.remove();
+        prevbtn.setAttribute("class", "btn mybtn me-md-2")
         let p = document.createElement("schoolsex-component");
         p.id="newID"
         
@@ -69,13 +82,13 @@ function changePageForward(){
 
     }
 
-    else if(currentPage == 4){
+    else if(currentPage == 5){
         // bod.style.opacity = 0;
        q=document.getElementById("newID");
     
         q.remove();
 
-        let m = document.createElement("dating-component");
+        let m = document.createElement("appuse-component");
         m.id="newID"
         
         bod.append(m)
@@ -83,7 +96,21 @@ function changePageForward(){
 
     }
 
-    else if(currentPage == 5){
+    else if(currentPage == 6){
+        // bod.style.opacity = 0;
+       m=document.getElementById("newID");
+    
+        m.remove();
+
+        let k = document.createElement("dating-component");
+        k.id="newID"
+        
+        bod.append(k)
+        // fadeIn()
+
+    }
+
+    else if(currentPage == 7){
        
        m=document.getElementById("newID");
         m.remove();
@@ -95,7 +122,7 @@ function changePageForward(){
 
     }
 
-    else if(currentPage == 6){
+    else if(currentPage == 8){
        
         i=document.getElementById("newID");
          i.remove();
@@ -103,6 +130,18 @@ function changePageForward(){
          let j = document.createElement("masterbation-component");
          j.id="newID"
          bod.append(j)
+         
+ 
+     }
+
+     else if(currentPage == 9){
+       
+        j=document.getElementById("newID");
+         j.remove();
+ 
+         let pp = document.createElement("porn-component");
+         pp.id="newID"
+         bod.append(pp)
          
  
      }

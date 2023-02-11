@@ -51,6 +51,11 @@ h1 {
     margin-bottom: 10%;
 }
 
+.circle-wrap.big{
+    height: 400px;
+}
+
+
 .circle-wrap .circle .mask,
 .circle-wrap .circle .fill {
     width: 150px;
@@ -114,6 +119,83 @@ h2 {
     font-size: .75em;
 
 }
+
+/* big */
+.circle-wrap.big{
+    height: 400px;
+}
+
+
+.circle-wrap.big .circle .mask,
+.circle-wrap.big .circle .fill {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+
+.circle-wrap.big .circle .mask {
+    clip: rect(0px, 300px, 300px, 150px);
+    /* background-color: rgb(16, 77, 77); */
+
+}
+
+.circle-wrap.big .circle .mask .fill {
+    clip: rect(0px, 150px, 300px, 0px);
+    /* background-color: rgb(223, 65, 91); */
+}
+
+.circle-wrap.big .inside-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.716);
+    /* line-height: 130px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+h2 {
+    margin-top: 0% !important;
+    margin-bottom: 0 !important;
+    font-size: 1em !important;
+}
+
+.special_h2{
+
+}
+
+.circle-wrap.big .inside-circle h2 {
+    margin-top: 30% !important;
+    margin-bottom: 0 !important;
+    font-size: 1em !important;
+
+}
+
+.circle-wrap.big .inside-circle h2.special_h2 {
+    margin-top: 1% !important;
+    margin-bottom: 0 !important;
+    font-size: 1em !important;
+
+}
+
+.circle-wrap.big .inside-circle .percent {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+ .responses {
+    font-size: .75em;
+
+}
+
 
 
 header nav {
@@ -190,3 +272,7 @@ footer a:hover {
     font-size: .75em !important;
 }
 
+.buttonContain{
+    position: absolute !important;
+    bottom: 10% !important;
+}

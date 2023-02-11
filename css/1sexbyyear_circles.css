@@ -7,6 +7,10 @@
 
 }
 
+.circle-wrap.h .circle .fill{
+    background-color: rgb(212, 102, 148);
+}
+
 @keyframes fill {
     0% {
         transform: rotate(0deg);
@@ -14,6 +18,7 @@
 
     100% {
         transform: rotate(103.32deg);
+        
     }
 }
 
@@ -21,9 +26,14 @@
 .circle-wrap.sophmore .circle .mask.full,
 .circle-wrap.sophmore .circle .fill  {
     animation: fillSo ease-in-out 2s;
+   
     transform: rotate(133.18deg);
     /* background-color: rgb(0, 255, 255); */
 
+}
+
+.circle-wrap.sophmore .circle .fill  {
+    background-color: rgb(134, 0, 69);
 }
 
 @keyframes fillSo {
@@ -42,6 +52,11 @@
     animation: fillJ ease-in-out 2s;
     transform: rotate(142.18deg);
     /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.junior .circle .fill  {
+    background-color: rgb(62, 1, 42);
 
 }
 
@@ -64,6 +79,11 @@
 
 }
 
+.circle-wrap.senior .circle .fill  {
+    background-color: #ff6060;
+
+}
+
 @keyframes fillSCC {
     0% {
         transform: rotate(0deg);
@@ -78,8 +98,14 @@
 .circle-wrap.grad .circle .mask.full,
 .circle-wrap.grad .circle .fill  {
     animation: fillGCC ease-in-out 2s;
+    
     transform: rotate(142.93deg);
     /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.grad .circle .fill  {
+    background-color: #ffaeae;
 
 }
 
@@ -102,6 +128,11 @@
 
 }
 
+.circle-wrap.med .circle .fill  {
+    background-color: #a04;
+
+}
+
 @keyframes fillMCC {
     0% {
         transform: rotate(0deg);
@@ -109,5 +140,48 @@
 
     100% {
         transform: rotate(161.60deg);
+    }
+}
+
+.circle-wrap.big.porn .circle .mask.full,
+.circle-wrap.big.porn .circle .fill  {
+    animation: fillBigPorn ease-in-out 2s;
+    
+    transform: rotate(114.786deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.big.porn .circle .fill  {
+    background-color: rgb(62, 1, 42);
+
+}
+
+
+@keyframes fillBigPorn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(114.786deg);
+    }
+}
+
+.circle-wrap.big.appUse .circle .mask.full,
+.circle-wrap.big.appUse .circle .fill  {
+    animation: fillBigApp ease-in-out 2s;
+    transform: rotate(122.27deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillBigApp {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(122.27deg);
     }
 }

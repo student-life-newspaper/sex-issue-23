@@ -20,7 +20,7 @@ div .dbar {
 div .bar.artsci{
     width: 74.30%;
    
-
+    background-color: #ff6060;
     animation: fillA ease-in-out  1.5s;
 }
 
@@ -36,6 +36,7 @@ div .bar.artsci{
 
 div .bar.olin{
     width: 78.51%;
+    background-color: rgb(134, 0, 69);
     animation: fillO ease-in-out  1.5s;
 }
 
@@ -51,6 +52,7 @@ div .bar.olin{
 
 div .bar.samfox{
     width: 71.25%;
+    background-color: rgb(62, 1, 42);
     animation: fillS ease-in-out  1.5s;
 }
 
@@ -66,6 +68,7 @@ div .bar.samfox{
 
 div .bar.mckelvey{
     width: 70.15%;
+    background-color: rgb(212, 102, 148);
     animation: fillM ease-in-out  1.5s;
 }
 
@@ -81,6 +84,7 @@ div .bar.mckelvey{
 
 div .bar.medschool{
     width: 87.5%;
+    background-color: #a04;
     animation: fillMS ease-in-out 1.5s;
 }
 
@@ -105,6 +109,7 @@ toys-component .dbar{
 
 toys-component div .bar.no_toys{
     width: 49.26%;
+    background-color: #a04;
     animation: toyfill1 ease-in-out 1.5s;
 }
 
@@ -120,6 +125,7 @@ toys-component div .bar.no_toys{
 
 toys-component div .bar.vibrator{
     width: 42.26%;
+    background-color: rgb(212, 102, 148);
     animation: toyfill2 ease-in-out 1.5s;
 }
 
@@ -135,6 +141,7 @@ toys-component div .bar.vibrator{
 
 toys-component div .bar.handcuffs{
     width: 14.32%;
+    background-color: rgb(62, 1, 42);
     animation: toyfill3 ease-in-out 1.5s;
 }
 
@@ -150,6 +157,7 @@ toys-component div .bar.handcuffs{
 
 toys-component div .bar.dildo{
     width: 16.86%;
+    background-color: rgb(134, 0, 69);
     animation: toyfill4 ease-in-out 1.5s;
 }
 
@@ -165,6 +173,7 @@ toys-component div .bar.dildo{
 
 toys-component div .bar.butt_plug{
     width: 8.62%;
+    background-color: #ff6060;
     animation: toyfill5 ease-in-out 1.5s;
 }
 
@@ -175,5 +184,37 @@ toys-component div .bar.butt_plug{
 
     100% {
         width: 8.62%;
+    }
+}
+
+reality-component div .bar.actually_sex{
+    width: 75.66%;
+    background-color: #ff6060;
+    animation: actuallyfill5 ease-in-out 1.5s;
+}
+
+@keyframes actuallyfill5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 75.66%;
+    }
+}
+
+reality-component div .bar.guess_sex{
+    width: 65%;
+    background-color: rgb(134, 0, 69);
+    animation: guessfill5 ease-in-out 1.5s;
+}
+
+@keyframes guessfill5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
     }
 }

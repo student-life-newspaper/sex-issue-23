@@ -10,7 +10,7 @@ class Masterbation extends HTMLElement {
         <h1>
             Masterbation frequency?
         </h1>
-        <div class="row gy-5 pieHolder justify-content-center">
+        <div class="row gy-1 pieHolder justify-content-center">
             <div class="col-12 justify-content-center">
                 <div class="pieContainer">
                     <div class="pieBackground"></div>
