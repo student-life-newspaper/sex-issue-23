@@ -25,6 +25,7 @@
     height: 300px;
     border-radius: 100%;
     clip: rect(0px, 150px, 300px, 0px);
+    animation: fillPie1 ease-in-out 1s;
   }
   
   .hold {
@@ -38,8 +39,19 @@
   #pieSlice1 .pie {
     background-color: #ff6060;
     transform:rotate(24.75deg);
+   
   }
-  
+
+@keyframes fillPie1 {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      
+  }
+}
+
   #pieSlice2 {
     transform: rotate(24.75deg);
   }
@@ -112,7 +124,21 @@
     width: 100%;
     height: 100%;
     background-color: #a04;
+    animation: fillbar ease-in-out 1s;
   }
+
+
+@keyframes fillbar {
+  0% {
+      width: 0;
+  }
+
+  100% {
+      width: 100%;
+  }
+}
+
+
 
   .color_block.never{
     background-color: #000000;
