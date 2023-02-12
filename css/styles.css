@@ -274,5 +274,6 @@ footer a:hover {
 
 .buttonContain{
     position: absolute !important;
-    bottom: 10% !important;
+   
+    bottom: 1% !important;
 }

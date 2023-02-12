@@ -8,9 +8,9 @@ class Masterbation extends HTMLElement {
         <Masterbation>
         <div class="container">
         <h1>
-            Masterbation frequency?
+             Masturbation frequency?
         </h1>
-        <div class="row gy-1 pieHolder justify-content-center">
+        <div class="row gy-2 p-3 pieHolder justify-content-center">
             <div class="col-12 justify-content-center">
                 <div class="pieContainer">
                     <div class="pieBackground"></div>
@@ -62,7 +62,7 @@ class Masterbation extends HTMLElement {
                 <div class="color_block tmonth"></div>
             </div>
             <div class="col">
-                <h2>Once or twice a month 16.97%</h2>
+                <h2>Once or twice a month: 16.97%</h2>
             </div>
 
         </div>
@@ -110,7 +110,7 @@ class Masterbation extends HTMLElement {
 
         </div>
 
-    </div>
+    
   
         </Masterbation>
       `;

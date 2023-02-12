@@ -1,10 +1,10 @@
 class Toys extends HTMLElement {
     constructor() {
-      super();
+        super();
     }
-  
+
     connectedCallback() {
-      this.innerHTML = `
+        this.innerHTML = `
         <Toys>
          <div class="container">
         <h1>
@@ -38,20 +38,7 @@ class Toys extends HTMLElement {
 
         </div>
         <div class="row gy-5">
-            
         <div class="col-9 p-0">
-            <div class="dbar"><div class="bar handcuffs"></div></div>
-        </div>
-        <div class="col-3 p-1">
-            <h2>Handcuffs</h2>
-            <p class="percent">14.32%</p>
-            
-        </div>
-   
-
-</div>
-        <div class="row gy-5">
-            <div class="col-9 p-0">
                 <div class="dbar"><div class="bar dildo"></div></div>
             </div>
 
@@ -62,6 +49,20 @@ class Toys extends HTMLElement {
           
 
             </div>
+            
+       
+   
+
+</div>
+        <div class="row gy-5">
+        <div class="col-9 p-0">
+        <div class="dbar"><div class="bar handcuffs"></div></div>
+    </div>
+    <div class="col-3 p-1">
+        <h2>Handcuffs</h2>
+        <p class="percent">14.32%</p>
+        
+    </div>
 
         </div>
         <div class="row gy-5">
@@ -82,6 +83,6 @@ class Toys extends HTMLElement {
         </Toys>
       `;
     }
-  }
-  
-  customElements.define('toys-component', Toys);
+}
+
+customElements.define('toys-component', Toys);

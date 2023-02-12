@@ -160,17 +160,6 @@ function changePageBackward(){
         prevbtn.setAttribute("class", "btn mybtn me-md-2 disabled")
 
     }
-    else if(currentPage == 2){
-        prevbtn.setAttribute("class", "btn mybtn me-md-2")
-        let q=document.getElementById("newID");
-    
-        q.remove();
-        let p = document.createElement("schoolsex-component");
-        p.id="newID"
-        
-        bod.append(p)
-       fadeIn()
-    }
     else {
         changePageForward();
 
