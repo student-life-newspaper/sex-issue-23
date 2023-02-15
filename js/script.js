@@ -215,6 +215,50 @@ function changePageForward(){
          
  
      }
+     else if(currentPage == 16){
+       
+        v=document.getElementById("newID");
+        v.remove();
+ 
+         let is = document.createElement("circumcisedpreference-component");
+         is.id="newID"
+         bod.append(is)
+         
+ 
+     }
+     else if(currentPage == 17){
+       
+        v=document.getElementById("newID");
+        v.remove();
+ 
+         let is = document.createElement("circumcision-component");
+         is.id="newID"
+         bod.append(is)
+         
+ 
+     }
+     else if(currentPage == 18){
+       
+        v=document.getElementById("newID");
+        v.remove();
+ 
+         let is = document.createElement("grooming-component");
+         is.id="newID"
+         bod.append(is)
+         
+ 
+     }
+     else if(currentPage == 19){
+       
+        v=document.getElementById("newID");
+        v.remove();
+ 
+         let is = document.createElement("goodbye-component");
+         is.id="newID"
+         bod.append(is)
+         btn.setAttribute("class", "btn mybtn me-md-2 disabled")
+ 
+     }
 }
 
 function changePageBackward(){
@@ -228,6 +272,15 @@ function changePageBackward(){
         bod.append(ww)
 
         prevbtn.setAttribute("class", "btn mybtn me-md-2 disabled")
+
+    }
+
+    else if(currentPage == 18){
+       
+
+        btn.setAttribute("class", "btn mybtn me-md-2")
+        changePageForward();
+
 
     }
     else {

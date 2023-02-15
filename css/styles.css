@@ -234,6 +234,7 @@ nav {
     align-items: center;
     justify-content: left;
     background-color: pink;
+    z-index: 100;
 }
 
 .footer_ul {

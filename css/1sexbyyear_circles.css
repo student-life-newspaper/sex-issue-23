@@ -284,3 +284,151 @@
     /* background-color: rgb(0, 255, 255); */
 
 }
+
+/* grooming circles */
+.circle-wrap.nogrooming .circle .mask.full,
+.circle-wrap.nogrooming .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(10.83deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.nogrooming .circle .fill  {
+    background-color: #e83434;
+}
+
+.circle-wrap.arms .circle .mask.full,
+.circle-wrap.arms .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(18.54deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.arms .circle .fill  {
+    background-color: #ffaeae;
+}
+
+.circle-wrap.armpits .circle .mask.full,
+.circle-wrap.armpits .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(119.64deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.armpits .circle .fill  {
+    background-color: rgb(201, 13, 13);
+}
+
+.circle-wrap.legs .circle .mask.full,
+.circle-wrap.legs .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(95deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.legs .circle .fill  {
+    background-color: rgb(78, 2, 51);
+}
+
+.circle-wrap.chest .circle .mask.full,
+.circle-wrap.chest .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(26.11deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.chest .circle .fill  {
+    background-color: rgb(212, 102, 148);
+}
+.circle-wrap.back .circle .mask.full,
+.circle-wrap.back .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(9.73deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.back .circle .fill  {
+    background-color: rgb(62, 1, 42);
+}
+.circle-wrap.face .circle .mask.full,
+.circle-wrap.face .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(78.35deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.face .circle .fill  {
+    background-color: #6e0606;
+}
+.circle-wrap.pubic .circle .mask.full,
+.circle-wrap.pubic .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(147.51deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.pubic .circle .fill  {
+    background-color: #a04;
+}
+
+
+
+
+
+
+/* circumcised circles */
+.circle-wrap.yes .circle .mask.full,
+.circle-wrap.yes .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(43.63deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.yes .circle .fill  {
+    background-color: #6e0606;
+}
+
+.circle-wrap.no .circle .mask.full,
+.circle-wrap.no .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(5.184deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.no .circle .fill  {
+    background-color: #e83434;
+}
+
+.circle-wrap.dont_care .circle .mask.full,
+.circle-wrap.dont_care .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(71.19deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.dont_care .circle .fill  {
+    background-color: rgb(201, 13, 13);
+}
+
+.circle-wrap.not_applicible .circle .mask.full,
+.circle-wrap.not_applicible .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(59.99deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.not_applicible .circle .fill  {
+    background-color: rgb(78, 2, 51);
+}
