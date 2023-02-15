@@ -56,7 +56,7 @@ function changePageForward(){
     //    fadeIn()
     }
     
-    else if(currentPage == 4){
+    else if(currentPage == 5){
        
         hh=document.getElementById("newID");
     
@@ -68,7 +68,7 @@ function changePageForward(){
         bod.append(p)
     //    fadeIn()
     }
-    else if(currentPage == 3){
+    else if(currentPage == 4){
         // bod.style.opacity = 0;
        p=document.getElementById("newID");
     
@@ -81,8 +81,21 @@ function changePageForward(){
         // fadeIn()
 
     }
+    else if(currentPage == 3){
+        // bod.style.opacity = 0;
+       p=document.getElementById("newID");
+    
+        p.remove();
 
-    else if(currentPage == 5){
+        let q = document.createElement("sexfrequency-component");
+        q.id="newID"
+        
+        bod.append(q)
+        // fadeIn()
+
+    }
+
+    else if(currentPage == 6){
         // bod.style.opacity = 0;
        q=document.getElementById("newID");
     
@@ -96,7 +109,7 @@ function changePageForward(){
 
     }
 
-    else if(currentPage == 6){
+    else if(currentPage == 7){
         // bod.style.opacity = 0;
        m=document.getElementById("newID");
     
@@ -110,7 +123,7 @@ function changePageForward(){
 
     }
 
-    else if(currentPage == 7){
+    else if(currentPage == 8){
        
        m=document.getElementById("newID");
         m.remove();
@@ -121,7 +134,7 @@ function changePageForward(){
         
 
     }
-    else if(currentPage == 8){
+    else if(currentPage == 9){
        
         i=document.getElementById("newID");
         i.remove();
@@ -133,7 +146,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 9){
+     else if(currentPage == 10){
        
         i=document.getElementById("newID");
         i.remove();
@@ -145,7 +158,7 @@ function changePageForward(){
  
      }
 
-    else if(currentPage == 10){
+    else if(currentPage == 11){
        
         im=document.getElementById("newID");
          im.remove();
@@ -157,7 +170,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 11){
+     else if(currentPage == 12){
        
         j=document.getElementById("newID");
          j.remove();
@@ -169,7 +182,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 12){
+     else if(currentPage == 13){
        
         pp=document.getElementById("newID");
         pp.remove();
@@ -180,7 +193,7 @@ function changePageForward(){
          
  
      }
-     else if(currentPage == 13){
+     else if(currentPage == 14){
        
         v=document.getElementById("newID");
         v.remove();

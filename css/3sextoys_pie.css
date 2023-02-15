@@ -172,6 +172,9 @@
     background-color: #ffaeae;
   }
 
+
+  /* porn frequency */
+
   #pieSlice10 .pie {
     background-color: #ff6060;
     transform:rotate(12.25deg);
@@ -187,7 +190,6 @@
       
   }
 }
-
   #pieSlice20 {
     transform: rotate(12.25deg);
   }
@@ -240,4 +242,137 @@
   #pieSlice70 .pie {
     background-color: black;
     transform: rotate(7.01deg);
+  }
+
+  /* sex frequency */  
+  .color_block.sex_multi{
+    background-color: rgb(78, 2, 51);
+}
+
+.color_block.sex_daily{
+    background-color: rgb(212, 102, 148);
+}
+
+.color_block.sex_twoweek{
+  background-color: rgb(134, 0, 69);
+}
+
+
+.color_block.sex_weekly{
+  background-color: rgb(62, 1, 42);
+}
+
+.color_block.sex_tm{
+  
+  background-color: #ff6060;
+}
+
+.color_block.sex_tsemester{
+  background-color: #a04;
+}
+
+.color_block.sex_onesemester{
+  background-color: #ffaeae;
+}
+
+.color_block.sex_tyear{
+    background-color: rgb(201, 13, 13);
+  }
+
+  .color_block.sex_oneyear{
+    background-color: #6e0606;
+  }
+
+  .color_block.sex_lessoneyear{
+    background-color: #e83434;
+  }
+
+  #pieSlice100 .pie {
+    background-color: #ff6060;
+    transform:rotate(8.46deg);
+   
+  }
+
+  #pieSlice200 {
+    transform: rotate(8.46deg);
+  }
+  
+  #pieSlice200 .pie {
+    
+    background-color: rgb(212, 102, 148);
+    transform: rotate(24.73deg);
+  }
+  
+  #pieSlice300 {
+    transform: rotate(33.19deg);
+  }
+  
+  #pieSlice300 .pie {
+    background-color: rgb(62, 1, 42);
+    transform: rotate(101.34deg);
+  }
+  
+  #pieSlice400 {
+    transform: rotate(134.53deg);
+  }
+  
+  #pieSlice400 .pie {
+    background-color: rgb(134, 0, 69);
+    transform: rotate(68.79deg);
+  }
+  
+  #pieSlice500 {
+    transform: rotate(203.32deg);
+  }
+  
+  #pieSlice500 .pie {
+    background-color: #a04;
+    transform: rotate(73.54deg);
+  }
+  
+  #pieSlice600 {
+    transform: rotate(276.86deg);
+  }
+  
+  #pieSlice600 .pie {
+    background-color: #ffaeae;
+    transform: rotate(40.35deg);
+  }
+
+  #pieSlice700 {
+    transform: rotate(317.21deg);
+  }
+  
+  #pieSlice700 .pie {
+    background-color: rgb(78, 2, 51);
+    transform: rotate(8.82deg);
+  }
+
+  #pieSlice800 {
+    transform: rotate(326.03deg);
+  }
+  
+  #pieSlice800 .pie {
+    background-color: rgb(201, 13, 13);
+    transform: rotate(15.94deg);
+  }
+
+  #pieSlice900 {
+    transform: rotate(341.97deg);
+  }
+  
+  #pieSlice900 .pie {
+    background-color: #6e0606;
+    transform: rotate(4.75deg);
+  }
+
+  #pieSlice1000 {
+    transform: rotate(346.72deg);
+  }
+  
+  #pieSlice1000 .pie {
+    background-color: #e83434;
+
+
+    transform: rotate(13.21deg);
   }

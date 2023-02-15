@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+class SexFrequency extends HTMLElement {
+    constructor() {
+        super();
+    }
 
-<head>
-    <title>Sex Issue 2023 | Student Life</title>
-    <link rel="shortcut icon" href="https://www.studlife.com/favicon.ico?v=2" />
-    <meta name="description" content="Site content published alongside StudLife's 2023 Sex Issue" />
-    <meta name="COPYRIGHT" content="&copy; 2023 Student Life" />
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Student Life Staff | Student Life">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="og:type" content="article">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/1sexbyyear_circles.css">
-    <link rel="stylesheet" href="css/1sexbyschhol_bars.css">
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="components/header.js" type="text/javascript" defer></script>
-    <script src="components/footer.js" type="text/javascript" defer></script>
-
-
-</head>
-
-<body>
-    <header-component></header-component>
-
-    <div class="container">
+    connectedCallback() {
+        this.innerHTML = `
+        <SexFrequency>
+        <div class="container">
         <h1>
-             Masturbation frequency?
+             Sex frequency?
         </h1>
         <div class="row gy-2 p-3 pieHolder justify-content-center">
             <div class="col-12 justify-content-center">
@@ -136,7 +115,7 @@
             <div class="col">
                 <h2>
 
-                    1 time a semester: 2.52%</h2>
+                    1 time a semester: 2.45%</h2>
                     
                     
             </div>
@@ -182,19 +161,11 @@
 
 </div>
 
+    
+  
+        </SexFrequency>
+      `;
+    }
+}
 
-
-    </div>
-    <div class="d-grid gap-2 d-md-flex justify-content-end my-1">
-        <button class="btn mybtn me-md-2" type="button" onclick="window.location.href = '2sexbyyear.html';">></button>
-        
-      </div>
-      
-
-    <footer-component></footer-component>
-</body>
-
-<script src="js/script.js" type="text/javascript" defer></script>
-
-
-</html>
+customElements.define('sexfrequency-component', SexFrequency);
