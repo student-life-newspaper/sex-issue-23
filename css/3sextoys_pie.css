@@ -169,5 +169,75 @@
   }
 
   .color_block.multi{
+    background-color: #ffaeae;
+  }
+
+  #pieSlice10 .pie {
+    background-color: #ff6060;
+    transform:rotate(12.25deg);
+   
+  }
+
+@keyframes fillPie1 {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      
+  }
+}
+
+  #pieSlice20 {
+    transform: rotate(12.25deg);
+  }
+  
+  #pieSlice20 .pie {
+    background-color: rgb(134, 0, 69);
+    transform: rotate(44.57deg);
+  }
+  
+  #pieSlice30 {
+    transform: rotate(56.9deg);
+  }
+  
+  #pieSlice30 .pie {
     background-color: rgb(62, 1, 42);
+    transform: rotate(90.44deg);
+  }
+  
+  #pieSlice40 {
+    transform: rotate(147.24deg);
+  }
+  
+  #pieSlice40 .pie {
+    background-color: rgb(212, 102, 148);
+    transform: rotate(98.32deg);
+  }
+  
+  #pieSlice50 {
+    transform: rotate(245.55deg);
+  }
+  
+  #pieSlice50 .pie {
+    background-color: #a04;
+    transform: rotate(87.38deg);
+  }
+  
+  #pieSlice60 {
+    transform: rotate(332.92deg);
+  }
+  
+  #pieSlice60 .pie {
+    background-color: #ffaeae;
+    transform: rotate(20.1deg);
+  }
+
+  #pieSlice70 {
+    transform: rotate(352.99deg);
+  }
+  
+  #pieSlice70 .pie {
+    background-color: black;
+    transform: rotate(7.01deg);
   }

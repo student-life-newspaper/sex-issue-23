@@ -218,3 +218,96 @@ reality-component div .bar.guess_sex{
         width: 65%;
     }
 }
+
+noporn-component div .bar.nopleasure{
+    width: 41.58%;
+    background-color: rgb(134, 0, 69);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+@keyframes nopornfill {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        
+    }
+}
+
+nomasturbate div .bar.caugt{
+    width: 6.78%;
+    background-color: #ff6060;
+
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+
+noporn-component div .bar.prefernot{
+    width: 71.25%;
+    background-color: rgb(62, 1, 42);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+noporn-component div .bar.moral{
+    width: 39.61%;
+    background-color: rgb(212, 102, 148);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+noporn-component div .bar.religion{
+    width: 10.94%;
+    background-color: #a04;
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+noporn-component div .bar.wifi{
+    width: 2.63%;
+    background-color: black;
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.moral2{
+    width: 13.49%;
+    background-color: #ff6060;
+
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.roommate{
+    width: 18.25%;
+    background-color: rgb(62, 1, 42);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.moral{
+    width: 31.61%;
+    background-color: rgb(212, 102, 148);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.religion2{
+    width: 11.90%;
+    background-color: #a04;
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.how{
+    width: 15.61%;
+    background-color: rgb(212, 102, 148);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.perfernot2{
+    width: 33.07%;
+    background-color: rgb(134, 0, 69);
+
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+nomasturbation-component div .bar.nopleasure2{
+    width: 19.05%;
+    background-color: #ff6060;
+
+    animation: nopornfill ease-in-out 1.5s;
+}

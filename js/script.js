@@ -121,11 +121,34 @@ function changePageForward(){
         
 
     }
-
     else if(currentPage == 8){
        
         i=document.getElementById("newID");
-         i.remove();
+        i.remove();
+ 
+         let im = document.createElement("maturbat-component");
+         im.id="newID"
+         bod.append(im)
+         
+ 
+     }
+
+     else if(currentPage == 9){
+       
+        i=document.getElementById("newID");
+        i.remove();
+ 
+         let im = document.createElement("nomasturbation-component");
+         im.id="newID"
+         bod.append(im)
+         
+ 
+     }
+
+    else if(currentPage == 10){
+       
+        im=document.getElementById("newID");
+         im.remove();
  
          let j = document.createElement("masterbation-component");
          j.id="newID"
@@ -134,7 +157,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 9){
+     else if(currentPage == 11){
        
         j=document.getElementById("newID");
          j.remove();
@@ -142,6 +165,29 @@ function changePageForward(){
          let pp = document.createElement("porn-component");
          pp.id="newID"
          bod.append(pp)
+         
+ 
+     }
+
+     else if(currentPage == 12){
+       
+        pp=document.getElementById("newID");
+        pp.remove();
+ 
+         let v = document.createElement("noporn-component");
+         v.id="newID"
+         bod.append(v)
+         
+ 
+     }
+     else if(currentPage == 13){
+       
+        v=document.getElementById("newID");
+        v.remove();
+ 
+         let is = document.createElement("pornwatch-component");
+         is.id="newID"
+         bod.append(is)
          
  
      }
