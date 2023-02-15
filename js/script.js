@@ -122,8 +122,19 @@ function changePageForward(){
         // fadeIn()
 
     }
-
     else if(currentPage == 8){
+       
+        m=document.getElementById("newID");
+         m.remove();
+ 
+         let i = document.createElement("messages-component");
+         i.id="newID"
+         bod.append(i)
+         
+ 
+     }
+
+    else if(currentPage == 9){
        
        m=document.getElementById("newID");
         m.remove();
@@ -134,7 +145,7 @@ function changePageForward(){
         
 
     }
-    else if(currentPage == 9){
+    else if(currentPage == 10){
        
         i=document.getElementById("newID");
         i.remove();
@@ -146,7 +157,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 10){
+     else if(currentPage == 11){
        
         i=document.getElementById("newID");
         i.remove();
@@ -158,7 +169,7 @@ function changePageForward(){
  
      }
 
-    else if(currentPage == 11){
+    else if(currentPage == 12){
        
         im=document.getElementById("newID");
          im.remove();
@@ -170,7 +181,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 12){
+     else if(currentPage == 13){
        
         j=document.getElementById("newID");
          j.remove();
@@ -182,7 +193,7 @@ function changePageForward(){
  
      }
 
-     else if(currentPage == 13){
+     else if(currentPage == 14){
        
         pp=document.getElementById("newID");
         pp.remove();
@@ -193,7 +204,7 @@ function changePageForward(){
          
  
      }
-     else if(currentPage == 14){
+     else if(currentPage == 15){
        
         v=document.getElementById("newID");
         v.remove();

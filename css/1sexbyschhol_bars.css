@@ -1,3 +1,5 @@
+/* sex by school bars */
+
 div .bar {
 height: 100%;
 width: 0;
@@ -98,6 +100,8 @@ div .bar.medschool{
     }
 }
 
+/* toys bars */
+
 toys-component .bar{
     height: 80px;
 }
@@ -187,6 +191,8 @@ toys-component div .bar.butt_plug{
     }
 }
 
+/* guess sex amount vs actual bars */
+
 reality-component div .bar.actually_sex{
     width: 75.66%;
     background-color: #ff6060;
@@ -219,6 +225,8 @@ reality-component div .bar.guess_sex{
     }
 }
 
+/* no porn bars */
+
 noporn-component div .bar.nopleasure{
     width: 41.58%;
     background-color: rgb(134, 0, 69);
@@ -235,7 +243,7 @@ noporn-component div .bar.nopleasure{
     }
 }
 
-nomasturbate div .bar.caugt{
+noporn-component div .bar.caugt{
     width: 6.78%;
     background-color: #ff6060;
 
@@ -266,6 +274,8 @@ noporn-component div .bar.wifi{
     background-color: black;
     animation: nopornfill ease-in-out 1.5s;
 }
+
+/* no masterbation bars */
 
 nomasturbation-component div .bar.moral2{
     width: 13.49%;
@@ -311,3 +321,43 @@ nomasturbation-component div .bar.nopleasure2{
 
     animation: nopornfill ease-in-out 1.5s;
 }
+
+/* messages bars*/
+messages-component div .bar.neither_messages{
+    width: 30.69%;
+    background-color: #ff6060;
+
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+messages-component div .bar.recieved_messages{
+    width: 66.01%;
+    background-color: rgb(62, 1, 42);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+messages-component div .bar.sent_messages{
+    width: 66.01%;
+    background-color: #6e0606;
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+messages-component div .bar.recieved_pictures{
+    width: 61.05%;
+    background-color: #a04;
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+messages-component div .bar.sent_pictures{
+    width: 55.33%;
+    background-color: rgb(212, 102, 148);
+    animation: nopornfill ease-in-out 1.5s;
+}
+
+messages-component div .bar.neither_pictures{
+    width:35.03%;
+    background-color: rgb(134, 0, 69);
+
+    animation: nopornfill ease-in-out 1.5s;
+}
+
