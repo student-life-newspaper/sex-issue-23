@@ -196,11 +196,13 @@ h2 {
 
 }
 
-
+header-component{
+    width: 100% !important;
+}
 
 header nav {
     height: 40px !important;
-    width: 100%;
+    width: 100% !important;
 }
 
 header ul {
@@ -278,3 +280,1336 @@ footer a:hover {
    
     bottom: 1% !important;
 }
+
+/* circles */
+/* first year */
+.circle-wrap.tinder .circle .mask.full,
+.circle-wrap.tinder .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(103.32deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillTinder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(103.32deg);
+    }
+}
+
+/* hinge */
+.circle-wrap.hinge .circle .mask.full,
+.circle-wrap.hinge .circle .fill  {
+    animation: fillhinge ease-in-out 2s;
+    transform: rotate(133.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillhinge {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(133.18deg);
+    }
+}
+
+/* noneApps*/
+.circle-wrap.noneApps .circle .mask.full,
+.circle-wrap.noneApps .circle .fill  {
+    animation: fillnoneApps ease-in-out 2s;
+    transform: rotate(142.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillnoneApps {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.18deg);
+    }
+}
+
+/* senior */
+.circle-wrap.bumble .circle .mask.full,
+.circle-wrap.bumble .circle .fill  {
+    animation: fillBumble ease-in-out 2s;
+    transform: rotate(158.49deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillBumble {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(158.49deg);
+    }
+}
+
+/* snapchat */
+.circle-wrap.snapchat .circle .mask.full,
+.circle-wrap.snapchat .circle .fill  {
+    animation: fillsnapchat ease-in-out 2s;
+    transform: rotate(142.93deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillsnapchat {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.93deg);
+    }
+}
+
+/* DataMatc */
+.circle-wrap.DataMatc .circle .mask.full,
+.circle-wrap.DataMatc .circle .fill  {
+    animation: fillDataMatc ease-in-out 2s;
+    transform: rotate(161.60deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillDataMatc {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(161.60deg);
+    }
+}
+/* first year */
+.circle-wrap.h .circle .mask.full,
+.circle-wrap.h .circle .fill  {
+    animation: fill ease-in-out 2s;
+    transform: rotate(103.32deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.h .circle .fill{
+    background-color: rgb(212, 102, 148);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(103.32deg);
+        
+    }
+}
+
+/* sophmore */
+.circle-wrap.sophmore .circle .mask.full,
+.circle-wrap.sophmore .circle .fill  {
+    animation: fillSo ease-in-out 2s;
+   
+    transform: rotate(133.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.sophmore .circle .fill  {
+    background-color: rgb(134, 0, 69);
+}
+
+@keyframes fillSo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(133.18deg);
+    }
+}
+
+/* junior */
+.circle-wrap.junior .circle .mask.full,
+.circle-wrap.junior .circle .fill  {
+    animation: fillJ ease-in-out 2s;
+    transform: rotate(142.18deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.junior .circle .fill  {
+    background-color: rgb(62, 1, 42);
+
+}
+
+@keyframes fillJ {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.18deg);
+    }
+}
+
+/* senior */
+.circle-wrap.senior .circle .mask.full,
+.circle-wrap.senior .circle .fill  {
+    animation: fillSCC ease-in-out 2s;
+    transform: rotate(158.49deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.senior .circle .fill  {
+    background-color: #ff6060;
+
+}
+
+@keyframes fillSCC {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(158.49deg);
+    }
+}
+
+/* grad */
+.circle-wrap.grad .circle .mask.full,
+.circle-wrap.grad .circle .fill  {
+    animation: fillGCC ease-in-out 2s;
+    
+    transform: rotate(142.93deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.grad .circle .fill  {
+    background-color: #ffaeae;
+
+}
+
+@keyframes fillGCC {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(142.93deg);
+    }
+}
+
+/* med */
+.circle-wrap.med .circle .mask.full,
+.circle-wrap.med .circle .fill  {
+    animation: fillMCC ease-in-out 2s;
+    transform: rotate(161.60deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.med .circle .fill  {
+    background-color: #a04;
+
+}
+
+@keyframes fillMCC {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(161.60deg);
+    }
+}
+
+.circle-wrap.big.porn .circle .mask.full,
+.circle-wrap.big.porn .circle .fill  {
+    animation: fillBigPorn ease-in-out 2s;
+    
+    transform: rotate(114.786deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.big.porn .circle .fill  {
+    background-color: rgb(62, 1, 42);
+
+}
+
+
+@keyframes fillBigPorn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(114.786deg);
+    }
+}
+
+.circle-wrap.big.appUse .circle .mask.full,
+.circle-wrap.big.appUse .circle .fill  {
+    animation: fillBigApp ease-in-out 2s;
+    transform: rotate(122.27deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+@keyframes fillBigApp {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(122.27deg);
+    }
+}
+
+.circle-wrap.tinder .circle .mask.full,
+.circle-wrap.tinder .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(97.56deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.tinder .circle .fill  {
+    background-color: #ff6060;
+
+
+
+}
+
+.circle-wrap.hinge .circle .mask.full,
+.circle-wrap.hinge .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(58.30deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.hinge .circle .fill  {
+    background-color: rgb(134, 0, 69);
+
+}
+
+.circle-wrap.grindr .circle .mask.full,
+.circle-wrap.grindr .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(9.73deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.grindr .circle .fill  {
+    background-color: rgb(62, 1, 42);
+
+}
+
+.circle-wrap.bumble .circle .mask.full,
+.circle-wrap.bumble .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(54.37deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.bumble .circle .fill  {
+    background-color: rgb(212, 102, 148);
+
+    
+}
+
+.circle-wrap.snapchat .circle .mask.full,
+.circle-wrap.snapchat .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(30.38deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.snapchat .circle .fill  {
+    background-color: #a04;
+
+}
+
+.circle-wrap.DataMatc .circle .mask.full,
+.circle-wrap.DataMatc .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(23.4deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.DataMatc .circle .fill  {
+    background-color: #ffaeae;
+
+}
+
+@keyframes fillTinder {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+       
+    }
+}
+
+.circle-wrap.big.masturbat .circle .mask.full,
+.circle-wrap.big.masturbat .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(157.75deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+/* grooming circles */
+.circle-wrap.nogrooming .circle .mask.full,
+.circle-wrap.nogrooming .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(10.83deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.nogrooming .circle .fill  {
+    background-color: #e83434;
+}
+
+.circle-wrap.arms .circle .mask.full,
+.circle-wrap.arms .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(18.54deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.arms .circle .fill  {
+    background-color: #ffaeae;
+}
+
+.circle-wrap.armpits .circle .mask.full,
+.circle-wrap.armpits .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(119.64deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.armpits .circle .fill  {
+    background-color: rgb(201, 13, 13);
+}
+
+.circle-wrap.legs .circle .mask.full,
+.circle-wrap.legs .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(95deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.legs .circle .fill  {
+    background-color: rgb(78, 2, 51);
+}
+
+.circle-wrap.chest .circle .mask.full,
+.circle-wrap.chest .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(26.11deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.chest .circle .fill  {
+    background-color: rgb(212, 102, 148);
+}
+.circle-wrap.back .circle .mask.full,
+.circle-wrap.back .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(9.73deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.back .circle .fill  {
+    background-color: rgb(62, 1, 42);
+}
+.circle-wrap.face .circle .mask.full,
+.circle-wrap.face .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(78.35deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.face .circle .fill  {
+    background-color: #6e0606;
+}
+.circle-wrap.pubic .circle .mask.full,
+.circle-wrap.pubic .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(147.51deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.pubic .circle .fill  {
+    background-color: #a04;
+}
+
+
+
+
+
+
+/* circumcised circles */
+.circle-wrap.yes .circle .mask.full,
+.circle-wrap.yes .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(43.63deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.yes .circle .fill  {
+    background-color: #6e0606;
+}
+
+.circle-wrap.no .circle .mask.full,
+.circle-wrap.no .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(5.184deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.no .circle .fill  {
+    background-color: #e83434;
+}
+
+.circle-wrap.dont_care .circle .mask.full,
+.circle-wrap.dont_care .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(71.19deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.dont_care .circle .fill  {
+    background-color: rgb(201, 13, 13);
+}
+
+.circle-wrap.not_applicible .circle .mask.full,
+.circle-wrap.not_applicible .circle .fill  {
+    animation: fillTinder ease-in-out 2s;
+    transform: rotate(59.99deg);
+    /* background-color: rgb(0, 255, 255); */
+
+}
+
+.circle-wrap.not_applicible .circle .fill  {
+    background-color: rgb(78, 2, 51);
+}
+
+/* bars */
+/* sex by school bars */
+
+div .bar {
+    height: 100%;
+    width: 0;
+    background-color:rgb(223, 65, 91);
+    /* transition: all 1s; */
+    animation: fill ease-in-out  1.5s;
+    
+    }
+    
+    div .dbar {
+        height: 90%;
+        width: 100%;
+        
+        background-color:rgba(255, 217, 223, 0.692);
+        /* transition: all 1s; */
+        
+        
+    }
+    
+    div .bar.artsci{
+        width: 74.30%;
+       
+        background-color: #ff6060;
+        animation: fillA ease-in-out  1.5s;
+    }
+    
+    @keyframes fillA {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 74.30%;
+        }
+    }
+    
+    div .bar.olin{
+        width: 78.51%;
+        background-color: rgb(134, 0, 69);
+        animation: fillO ease-in-out  1.5s;
+    }
+    
+    @keyframes fillO {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 78.51%;
+        }
+    }
+    
+    div .bar.samfox{
+        width: 71.25%;
+        background-color: rgb(62, 1, 42);
+        animation: fillS ease-in-out  1.5s;
+    }
+    
+    @keyframes fillS {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 71.25%;
+        }
+    }
+    
+    div .bar.mckelvey{
+        width: 70.15%;
+        background-color: rgb(212, 102, 148);
+        animation: fillM ease-in-out  1.5s;
+    }
+    
+    @keyframes fillM {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 70.15%;
+        }
+    }
+    
+    div .bar.medschool{
+        width: 87.5%;
+        background-color: #a04;
+        animation: fillMS ease-in-out 1.5s;
+    }
+    
+    @keyframes fillMS {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 87.5%;
+        }
+    }
+    
+    /* toys bars */
+    
+    toys-component .bar{
+        height: 80px;
+    }
+    
+    toys-component .dbar{
+        height: 80px;
+        margin-bottom: 10px;
+    }
+    
+    toys-component div .bar.no_toys{
+        width: 49.26%;
+        background-color: #a04;
+        animation: toyfill1 ease-in-out 1.5s;
+    }
+    
+    @keyframes toyfill1 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 49.26%;
+        }
+    }
+    
+    toys-component div .bar.vibrator{
+        width: 42.26%;
+        background-color: rgb(212, 102, 148);
+        animation: toyfill2 ease-in-out 1.5s;
+    }
+    
+    @keyframes toyfill2 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 42.26%;
+        }
+    }
+    
+    toys-component div .bar.handcuffs{
+        width: 14.32%;
+        background-color: rgb(62, 1, 42);
+        animation: toyfill3 ease-in-out 1.5s;
+    }
+    
+    @keyframes toyfill3 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 14.32%;
+        }
+    }
+    
+    toys-component div .bar.dildo{
+        width: 16.86%;
+        background-color: rgb(134, 0, 69);
+        animation: toyfill4 ease-in-out 1.5s;
+    }
+    
+    @keyframes toyfill4 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 16.86%;
+        }
+    }
+    
+    toys-component div .bar.butt_plug{
+        width: 8.62%;
+        background-color: #ff6060;
+        animation: toyfill5 ease-in-out 1.5s;
+    }
+    
+    @keyframes toyfill5 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 8.62%;
+        }
+    }
+    
+    /* guess sex amount vs actual bars */
+    
+    reality-component div .bar.actually_sex{
+        width: 75.66%;
+        background-color: #ff6060;
+        animation: actuallyfill5 ease-in-out 1.5s;
+    }
+    
+    @keyframes actuallyfill5 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 75.66%;
+        }
+    }
+    
+    reality-component div .bar.guess_sex{
+        width: 65%;
+        background-color: rgb(134, 0, 69);
+        animation: guessfill5 ease-in-out 1.5s;
+    }
+    
+    @keyframes guessfill5 {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 65%;
+        }
+    }
+    
+    /* no porn bars */
+    
+    noporn-component div .bar.nopleasure{
+        width: 41.58%;
+        background-color: rgb(134, 0, 69);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    @keyframes nopornfill {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            
+        }
+    }
+    
+    noporn-component div .bar.caugt{
+        width: 6.78%;
+        background-color: #ff6060;
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    
+    noporn-component div .bar.prefernot{
+        width: 71.25%;
+        background-color: rgb(62, 1, 42);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    noporn-component div .bar.moral{
+        width: 39.61%;
+        background-color: rgb(212, 102, 148);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    noporn-component div .bar.religion{
+        width: 10.94%;
+        background-color: #a04;
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    noporn-component div .bar.wifi{
+        width: 2.63%;
+        background-color: black;
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    /* no masterbation bars */
+    
+    nomasturbation-component div .bar.moral2{
+        width: 13.49%;
+        background-color: #ff6060;
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.roommate{
+        width: 18.25%;
+        background-color: rgb(62, 1, 42);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.moral{
+        width: 31.61%;
+        background-color: rgb(212, 102, 148);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.religion2{
+        width: 11.90%;
+        background-color: #a04;
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.how{
+        width: 15.61%;
+        background-color: rgb(212, 102, 148);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.perfernot2{
+        width: 33.07%;
+        background-color: rgb(134, 0, 69);
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    nomasturbation-component div .bar.nopleasure2{
+        width: 19.05%;
+        background-color: #ff6060;
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    /* messages bars*/
+    messages-component div .bar.neither_messages{
+        width: 30.69%;
+        background-color: #ff6060;
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    messages-component div .bar.recieved_messages{
+        width: 66.01%;
+        background-color: rgb(62, 1, 42);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    messages-component div .bar.sent_messages{
+        width: 66.01%;
+        background-color: #6e0606;
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    messages-component div .bar.recieved_pictures{
+        width: 61.05%;
+        background-color: #a04;
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    messages-component div .bar.sent_pictures{
+        width: 55.33%;
+        background-color: rgb(212, 102, 148);
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    messages-component div .bar.neither_pictures{
+        width:35.03%;
+        background-color: rgb(134, 0, 69);
+    
+        animation: nopornfill ease-in-out 1.5s;
+    }
+    
+    
+/* pie */
+.pieHolder {
+    height: 50vh;
+    max-width: 100%;
+  }
+  
+  .pieContainer {
+  
+    width: fit-content;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .pieBackground {
+    /* position: absolute; */
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .pie {
+    transition: all 1s;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    clip: rect(0px, 150px, 300px, 0px);
+    animation: fillPie1 ease-in-out 1s;
+  }
+  
+  .hold {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    clip: rect(0px, 300px, 300px, 150px);
+  }
+  
+  #pieSlice1 .pie {
+    background-color: #ff6060;
+    transform: rotate(24.75deg);
+  
+  }
+  
+  @keyframes fillPie1 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {}
+  }
+  
+  #pieSlice2 {
+    transform: rotate(24.75deg);
+  }
+  
+  #pieSlice2 .pie {
+    background-color: rgb(134, 0, 69);
+    transform: rotate(61.09deg);
+  }
+  
+  #pieSlice3 {
+    transform: rotate(85.84deg);
+  }
+  
+  #pieSlice3 .pie {
+    background-color: rgb(62, 1, 42);
+    transform: rotate(101.84deg);
+  }
+  
+  #pieSlice4 {
+    transform: rotate(187.68deg);
+  }
+  
+  #pieSlice4 .pie {
+    background-color: rgb(212, 102, 148);
+    transform: rotate(122.50deg);
+  }
+  
+  #pieSlice5 {
+    transform: rotate(310.18deg);
+  }
+  
+  #pieSlice5 .pie {
+    background-color: #a04;
+    transform: rotate(40.10deg);
+  }
+  
+  #pieSlice6 {
+    transform: rotate(350.28deg);
+  }
+  
+  #pieSlice6 .pie {
+    background-color: #ffaeae;
+    transform: rotate(10deg);
+  }
+  
+  .innerCircle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+    border-radius: 100%;
+    top: 90px;
+    left: 90px;
+    box-shadow: 0px 0px 8px rgba(79, 0, 0, 0.5) inset;
+    color: white;
+  }
+  
+  .innerCircle .content {
+    position: absolute;
+    display: block;
+    width: 120px;
+    top: 30px;
+    left: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .color_block {
+    padding: 0 !important;
+    width: 100%;
+    height: 100%;
+    background-color: #a04;
+    animation: fillbar ease-in-out 1s;
+  }
+  
+  
+  @keyframes fillbar {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  .color_block.never {
+    background-color: #000000;
+  }
+  
+  .color_block.month {
+    background-color: #ff6060;
+  }
+  
+  .color_block.tmonth {
+    background-color: rgb(134, 0, 69);
+  }
+  
+  
+  .color_block.week {
+    background-color: rgb(62, 1, 42);
+  }
+  
+  .color_block.tweek {
+    background-color: rgb(212, 102, 148);
+  }
+  
+  .color_block.daily {
+    background-color: #a04;
+  }
+  
+  .color_block.multi {
+    background-color: #ffaeae;
+  }
+  
+  
+  /* porn frequency */
+  
+  #pieSlice10 .pie {
+    background-color: #ff6060;
+    transform: rotate(12.25deg);
+  
+  }
+  
+  @keyframes fillPie1 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {}
+  }
+  
+  #pieSlice20 {
+    transform: rotate(12.25deg);
+  }
+  
+  #pieSlice20 .pie {
+    background-color: rgb(134, 0, 69);
+    transform: rotate(44.57deg);
+  }
+  
+  #pieSlice30 {
+    transform: rotate(56.9deg);
+  }
+  
+  #pieSlice30 .pie {
+    background-color: rgb(62, 1, 42);
+    transform: rotate(90.44deg);
+  }
+  
+  #pieSlice40 {
+    transform: rotate(147.24deg);
+  }
+  
+  #pieSlice40 .pie {
+    background-color: rgb(212, 102, 148);
+    transform: rotate(98.32deg);
+  }
+  
+  #pieSlice50 {
+    transform: rotate(245.55deg);
+  }
+  
+  #pieSlice50 .pie {
+    background-color: #a04;
+    transform: rotate(87.38deg);
+  }
+  
+  #pieSlice60 {
+    transform: rotate(332.92deg);
+  }
+  
+  #pieSlice60 .pie {
+    background-color: #ffaeae;
+    transform: rotate(20.1deg);
+  }
+  
+  #pieSlice70 {
+    transform: rotate(352.99deg);
+  }
+  
+  #pieSlice70 .pie {
+    background-color: black;
+    transform: rotate(7.01deg);
+  }
+  
+  /* sex frequency */
+  .color_block.sex_multi {
+    background-color: rgb(78, 2, 51);
+  }
+  
+  .color_block.sex_daily {
+    background-color: rgb(212, 102, 148);
+  }
+  
+  .color_block.sex_twoweek {
+    background-color: rgb(134, 0, 69);
+  }
+  
+  
+  .color_block.sex_weekly {
+    background-color: rgb(62, 1, 42);
+  }
+  
+  .color_block.sex_tm {
+  
+    background-color: #ff6060;
+  }
+  
+  .color_block.sex_tsemester {
+    background-color: #a04;
+  }
+  
+  .color_block.sex_onesemester {
+    background-color: #ffaeae;
+  }
+  
+  .color_block.sex_tyear {
+    background-color: rgb(201, 13, 13);
+  }
+  
+  .color_block.sex_oneyear {
+    background-color: #6e0606;
+  }
+  
+  .color_block.sex_lessoneyear {
+    background-color: #e83434;
+  }
+  
+  #pieSlice100 .pie {
+    background-color: #ff6060;
+    transform: rotate(8.46deg);
+  
+  }
+  
+  #pieSlice200 {
+    transform: rotate(8.46deg);
+  }
+  
+  #pieSlice200 .pie {
+  
+    background-color: rgb(212, 102, 148);
+    transform: rotate(24.73deg);
+  }
+  
+  #pieSlice300 {
+    transform: rotate(33.19deg);
+  }
+  
+  #pieSlice300 .pie {
+    background-color: rgb(62, 1, 42);
+    transform: rotate(101.34deg);
+  }
+  
+  #pieSlice400 {
+    transform: rotate(134.53deg);
+  }
+  
+  #pieSlice400 .pie {
+    background-color: rgb(134, 0, 69);
+    transform: rotate(68.79deg);
+  }
+  
+  #pieSlice500 {
+    transform: rotate(203.32deg);
+  }
+  
+  #pieSlice500 .pie {
+    background-color: #a04;
+    transform: rotate(73.54deg);
+  }
+  
+  #pieSlice600 {
+    transform: rotate(276.86deg);
+  }
+  
+  #pieSlice600 .pie {
+    background-color: #ffaeae;
+    transform: rotate(40.35deg);
+  }
+  
+  #pieSlice700 {
+    transform: rotate(317.21deg);
+  }
+  
+  #pieSlice700 .pie {
+    background-color: rgb(78, 2, 51);
+    transform: rotate(8.82deg);
+  }
+  
+  #pieSlice800 {
+    transform: rotate(326.03deg);
+  }
+  
+  #pieSlice800 .pie {
+    background-color: rgb(201, 13, 13);
+    transform: rotate(15.94deg);
+  }
+  
+  #pieSlice900 {
+    transform: rotate(341.97deg);
+  }
+  
+  #pieSlice900 .pie {
+    background-color: #6e0606;
+    transform: rotate(4.75deg);
+  }
+  
+  #pieSlice1000 {
+    transform: rotate(346.72deg);
+  }
+  
+  #pieSlice1000 .pie {
+    background-color: #e83434;
+    transform: rotate(13.21deg);
+  }
+  
+  /* circumcision pie */
+  circumcision-component .color_block.circ {
+    background-color: rgb(62, 1, 42);
+  }
+  
+  circumcision-component #pieSliceCirc .pie {
+    background-color: rgb(62, 1, 42);
+    transform: rotate(106.23deg)
+  }
+  
+  circumcision-component .color_block.nocirc {
+    background-color: rgb(212, 102, 148);
+  }
+  
+  circumcision-component #pieSlice2000 {
+    transform: rotate(106.23deg);
+  }
+  
+  circumcision-component #pieSlice2000 .pie {
+  
+    background-color: rgb(212, 102, 148);
+    transform: rotate(33.69deg);
+  }
+  
+  circumcision-component #pieSlice3000 {
+    transform: rotate(139.46deg);
+  }
+  
+  circumcision-component #pieSlice3000 .pie {
+    background-color: #a04;
+    transform: rotate(110.27deg);
+  }
+  
+  circumcision-component #pieSlice4000 {
+    transform: rotate(249.62deg);
+  }
+  
+  circumcision-component #pieSlice4000 .pie {
+    background-color: #a04;
+    transform: rotate(111.27deg);
+  }
+  
